@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @media (max-width:991px){
+      .col-4{
+          font-size: 10px;
+          margin: 5px 5px;
+      }
+
+      .h5{
+          margin: 5px 5px;
+          font-size: 10px;
+      }
+  }
+
+  @media (max-width:768px){
+    .col-4{
+        font-size: 10px;
+        margin: 5px 5px;
+    }
+
+    .h5{
+        margin: 5px 5px;
+        font-size: 10px;
+    }
+  }
+
+  @media (max-width : 480px) {
+    .row{
+        margin: 30px;
+        border: 1px solid black;
+      }
+
+    .col-3{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .h5{
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    #p{
+        padding: 10px 10px;
+    }
+  }
+  
